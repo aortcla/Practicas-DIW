@@ -112,7 +112,7 @@ main {
 }
 
 .precio {
-    color: red;
+    color: #ffc107; /* antes: red */
     font-size: 20px;
     font-weight: bold;
 }
