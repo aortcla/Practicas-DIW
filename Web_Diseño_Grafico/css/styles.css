@@ -1,0 +1,172 @@
+body {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0 40px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 30px 0 20px 0;
+    border-bottom: 2px solid black;
+}
+
+.titulo {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#navCabecera {
+    display: flex;
+    gap: 30px;
+}
+
+#navCabecera p {
+    margin: 0;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+#navCabecera p:hover {
+    border-color: #e76f51;
+}
+
+/* ---------- Principal ---------- */
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+/* ---------- Presentación ---------- */
+.presentacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.texto-presentacion {
+    width: 50%;
+}
+
+.texto-presentacion h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.texto-presentacion p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.texto-presentacion .boton {
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    padding: 12px 28px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.texto-presentacion .boton:hover {
+    background-color: #e76f51;
+}
+
+.formas {
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.forma {
+    width: 100px;
+}
+
+.forma1 { height: 180px; background-color: #e76f51; }
+.forma2 { height: 260px; background-color: #264653; }
+.forma3 { height: 120px; background-color: #e9c46a; }
+
+/* ---------- Servicios ---------- */
+.servicio {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+    border-top: 1px solid #222;
+}
+
+.numero {
+    font-size: 40px;
+    color: #e76f51;
+    margin: 0;
+}
+
+.nombre {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 8px 0;
+}
+
+/* ---------- Portafolio ---------- */
+.rejilla {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.proyecto {
+    width: calc(33.33% - 20px);
+}
+
+.proyecto img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    background-color: white;
+    margin-bottom: 12px;
+    transition: opacity 0.3s ease;
+}
+
+.proyecto img:hover {
+    opacity: 0.7;
+}
+
+
+.categoria {
+    font-style: italic;
+    color: #666;
+    margin: 0;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    border-top: 2px solid #222;
+    padding: 30px 0 20px 0;
+}
+
+.footer-columnas {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-columnas h4 {
+    color: #e76f51;
+    margin-bottom: 10px;
+}
+
+.footer-columnas p {
+    margin: 5px 0;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    color: grey;
+}
