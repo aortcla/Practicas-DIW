@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background-color: white;
     color: black;
@@ -29,10 +33,11 @@ header {
     margin: 0;
     border-bottom: 2px solid transparent;
     transition: border-color 0.2s ease;
+    cursor: pointer;
 }
 
 #navCabecera p:hover {
-    border-color: #e76f51;
+    border-color: red;
 }
 
 /* ---------- Principal ---------- */
@@ -43,15 +48,10 @@ h2 {
 }
 
 /* ---------- Presentación ---------- */
-.presentacion {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-}
 
 .texto-presentacion {
     width: 50%;
+    margin: auto 25% auto 25%;
 }
 
 .texto-presentacion h1 {
@@ -66,50 +66,33 @@ h2 {
 
 .texto-presentacion .boton {
     display: inline-block;
-    background-color: #222;
+    background-color: black;
     color: white;
-    padding: 12px 28px;
+    padding: 12px 24px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 }
 
 .texto-presentacion .boton:hover {
-    background-color: #e76f51;
+    background-color: red;
 }
-
-.formas {
-    display: flex;
-    align-items: flex-end;
-    gap: 15px;
-}
-
-.forma {
-    width: 100px;
-}
-
-.forma1 { height: 180px; background-color: #e76f51; }
-.forma2 { height: 260px; background-color: #264653; }
-.forma3 { height: 120px; background-color: #e9c46a; }
-
 /* ---------- Servicios ---------- */
 .servicio {
     display: flex;
     align-items: center;
     gap: 30px;
     padding: 20px 0;
-    border-top: 1px solid #222;
+    border-top: 1px solid black;
 }
 
 .numero {
     font-size: 40px;
-    color: #e76f51;
-    margin: 0;
+    color: red;
 }
 
 .nombre {
     font-weight: bold;
     font-size: 20px;
-    margin: 0 0 8px 0;
 }
 
 /* ---------- Portafolio ---------- */
@@ -120,32 +103,30 @@ h2 {
 }
 
 .proyecto {
-    width: calc(33.33% - 20px);
+    width: 30%;
 }
 
 .proyecto img {
     width: 100%;
     height: 220px;
     object-fit: contain;
-    background-color: white;
     margin-bottom: 12px;
     transition: opacity 0.3s ease;
+    cursor: pointer;
 }
 
 .proyecto img:hover {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 
 .categoria {
-    font-style: italic;
-    color: #666;
-    margin: 0;
+    color: grey;
 }
 
 /* ---------- Footer ---------- */
 footer {
-    border-top: 2px solid #222;
+    border-top: 2px solid black;
     padding: 30px 0 20px 0;
 }
 
@@ -156,13 +137,9 @@ footer {
 }
 
 .footer-columnas h4 {
-    color: #e76f51;
-    margin-bottom: 10px;
+    color: red;
 }
 
-.footer-columnas p {
-    margin: 5px 0;
-}
 
 .copyright {
     text-align: center;
