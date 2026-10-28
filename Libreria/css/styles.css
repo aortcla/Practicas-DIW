@@ -92,22 +92,21 @@ header {
 }
 
 .tarjeta-libro {
-    background-color: #ffffff;
+    background-color: cyan;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
     display: flex;
     flex-direction: column;
 }
 
 .tarjeta-libro:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 25px rgba(0,0,0,1);
 }
 
 .imagen-contenedor {
-    background-color: #f5f5f5;
+    background-color: white;
     padding: 32px 16px;
     display: flex;
     justify-content: center;
@@ -117,7 +116,6 @@ header {
 .tarjeta-libro img {
     max-height: 280px;
     object-fit: contain;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
 }
 
 .info-libro {
@@ -128,23 +126,23 @@ header {
 }
 
 .autor {
-    font-size: 14.4px;
-    color: #7f8c8d;
+    font-size: 14px;
+    color: #899899;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 4.8px;
+    margin-bottom: 4px;
 }
 
 .titulo-libro {
-    font-size: 20.8px;
-    color: #2c3e50;
-    margin-bottom: 12.8px;
+    font-size: 20px;
+    color: #314151;
+    margin-bottom: 12px;
     font-weight: bold;
 }
 
 .descripcion {
-    font-size: 15.2px;
-    color: #555;
+    font-size: 15px;
+    color: grey;
     margin-bottom: 24px;
     flex-grow: 1;
 }
@@ -157,17 +155,17 @@ header {
 }
 
 .precio {
-    font-size: 22.4px;
+    font-size: 22px;
     font-weight: bold;
-    color: #2c3e50;
+    color: black;
 }
 
 .btn-ver {
-    background-color: #2c3e50;
+    background-color: gray;
     color: white;
-    padding: 9.6px 19.2px;
-    border-radius: 4px;
-    font-size: 14.4px;
+    padding: 9px 19px;
+    border-radius: 100px;
+    font-size: 14px;
     font-weight: 600;
     cursor: pointer;
     transition: background 0.3s ease;
@@ -178,11 +176,11 @@ header {
 }
 
 footer {
-    background-color: #2c3e50;
+    background-color: #304152;
     color: #bdc3c7;
     padding: 64px 32px 32px 32px;
     margin-top: 80px;
-    font-size: 14.4px;
+    font-size: 14px;
 }
 
 .footer-container {
@@ -195,14 +193,14 @@ footer {
 }
 
 .footer-col h5 {
-    color: #ffffff;
-    font-size: 17.6px;
-    margin-bottom: 19.2px;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 19px;
     position: relative;
 }
 
 .footer-col p {
-    margin-bottom: 9.6px;
+    margin-bottom: 9px;
 }
 
 .footer-redes {
@@ -210,7 +208,7 @@ footer {
 }
 
 .footer-redes li {
-    margin-bottom: 9.6px;
+    margin-bottom: 9px;
 }
 
 .footer-redes li p {
@@ -223,5 +221,5 @@ footer {
     padding-top: 24px;
     border-top: 1px solid rgba(189, 195, 199, 0.2);
     text-align: center;
-    font-size: 13.6px;
+    font-size: 13px;
 }
