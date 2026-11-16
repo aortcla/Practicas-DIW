@@ -1,0 +1,24 @@
+p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+
+img {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+a {
+    display: block;
+    text-align: center;
+}
+
+@media screen {
+    img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
