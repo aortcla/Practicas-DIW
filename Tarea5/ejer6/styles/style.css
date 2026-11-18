@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #000;
+    background-color: #fff;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: blue;
+    text-decoration: underline;
+    margin-right: 15px;
+}
+
+main {
+    margin-top: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+#listaTareas li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.botones {
+    display: inline-block;
+    margin-left: 10px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8</title>
+</head>
+<body>
+
+    <form action="#">
+        
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required autofocus>
+        </p>
+
+        <p>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+        </p>
+
+        <p>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha">
+        </p>
+
+        <p>
+            <label for="numero">Número (entre -120 y 183):</label>
+            <input type="number" id="numero" name="numero" min="-120" max="183">
+        </p>
+
+        <p>
+            <label for="color">Color favorito:</label>
+            <input type="color" id="color" name="color">
+        </p>
+
+        <p>
+            <label for="modulos">Módulos de DAW2:</label>
+            <select id="modulos" name="modulos">
+                <option value="servidor">DESARROLLO DE ENTORNO SERVIDOR</option>
+                <option value="despliegue">DESPLIEGUE DE APLICACIONES WEB</option>
+                <option value="cliente" selected>DESARROLLO DE ENTORNO CLIENTE</option>
+                <option value="interfaces">DISEÑO DE INTERFACES WEB</option>
+                <option value="empresa">EMPRESA E INICIATIVA EMPRENDEDORA</option>
+            </select>
+        </p>
+
+        <p>
+            <button type="submit">Enviar</button>
+        </p>
+
+    </form>
+
+</body>
+</html>

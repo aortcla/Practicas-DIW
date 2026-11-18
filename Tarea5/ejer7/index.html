@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puro Latino Fest 2026</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Puro Latino Fest 2026</h1>
+        <p>El mayor festival de reguetón y música urbana del año.</p>
+        
+        <nav>
+            <ul>
+                <li><a href="#informacion">Información</a></li>
+                <li><a href="#artistas">Artistas</a></li>
+                <li><a href="#programa">Programa</a></li>
+                <li><a href="#multimedia">Multimedia</a></li>
+                <li><a href="#entradas">Comprar Entradas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="informacion">
+            <h2>Información del Evento</h2>
+            <p><strong>Fecha:</strong> 3 y 4 de Agosto de 2026</p>
+            <p><strong>Ubicación:</strong> Recinto Ferial, Sevilla</p>
+            
+        </section>
+
+        <section id="artistas">
+            <h2>Artistas Confirmados</h2>
+            
+            <article>
+                <h3>Quevedo</h3>
+                <p>El fenómeno de la música urbana presentando sus grandes éxitos globales.</p>
+            </article>
+
+            <article>
+                <h3>Lola Índigo</h3>
+                <p>La reina del pop y los ritmos urbanos con un show lleno de energía y baile.</p>
+            </article>
+
+            <article>
+                <h3>Mora</h3>
+                <p>Uno de los máximos exponentes del trap y reguetón melódico actual.</p>
+            </article>
+        </section>
+
+        <section id="programa">
+            <h2>Horarios y Programa</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Artista / Actividad</th>
+                        <th>Escenario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>18:00</td>
+                        <td>Apertura de puertas y DJ Set inicial</td>
+                        <td>Escenario Principal</td>
+                    </tr>
+                    <tr>
+                        <td>21:00</td>
+                        <td>Lola Índigo</td>
+                        <td>Escenario Principal</td>
+                    </tr>
+                    <tr>
+                        <td>23:00</td>
+                        <td>Mora</td>
+                        <td>Escenario Principal</td>
+                    </tr>
+                    <tr>
+                        <td>01:00</td>
+                        <td>Quevedo (Cierre de jornada)</td>
+                        <td>Escenario Principal</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="multimedia">
+            <h2>Siente el Perreo - Multimedia</h2>
+            
+            <div>
+                <h3>Aftermovie Oficial Edición Anterior</h3>
+                <video width="320" height="180" controls>
+                    <source src="./media/video.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div>
+                <h3>Escucha la Playlist Oficial del Festival</h3>
+                <audio controls>
+                    <source src="./media/audio.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </section>
+
+        <section id="entradas">
+            <h2>Compra de Entradas y Abonos</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="nombre">Nombre completo:</label><br>
+                    <input type="text" id="nombre" name="nombre" required autofocus>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="email" placeholder="usuario@correo.com" required>
+                </div>
+                <br>
+                <div>
+                    <label for="fecha_asistencia">Día de asistencia:</label><br>
+                    <input type="date" id="fecha_asistencia" name="fecha_asistencia" required>
+                </div>
+                <br>
+                <div>
+                    <label for="entradas_num">Número de entradas (máx. 6):</label><br>
+                    <input type="number" id="entradas_num" name="entradas_num" min="1" max="6" value="1">
+                </div>
+                <br>
+                <div>
+                    <label for="color_pulsera">Elige el color de tu pulsera VIP:</label><br>
+                    <input type="color" id="color_pulsera" name="color_pulsera" value="#ffcc00">
+                </div>
+                <br>
+                <button type="submit">Comprar Entradas</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Puro Latino Fest. Todos los derechos reservados.</p>
+        <p>Contacto: <a>entradas@purolatino.es</a></p>
+    </footer>
+
+</body>
+</html>
