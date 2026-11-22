@@ -1,0 +1,17 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12pt;
+}
+
+.menu,
+img {
+  display: none;
+}
+
+.tarjeta {
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+  padding: 10px;
+}
