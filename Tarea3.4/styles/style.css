@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  height: 100px;
+  width: auto;
+  display: block;
+}
+
+body {
+  margin: 0;
+  background-color: #0f172a;
+  color: #f8fafc;
+  line-height: 1.6;
+}
+
+/* header*/
+.caja-header {
+  width: 85%;
+  max-width: 960px;
+  min-height: 120px;
+  margin: 24px auto;
+  padding: 20px 28px;
+  background-color: #1e293b;
+  border: 2px solid #38bdf8;
+  border-radius: 8px;
+}
+
+.logo-bloque {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo-marca {
+  font-size: 30px;
+  font-weight: 700;
+  color: #38bdf8;
+}
+
+.contenedor-principal {
+  width: 85%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* section 1 borde discontinuo */
+.seccion-nosotros {
+  width: 100%;
+  min-height: 160px;
+  padding: 28px 32px;
+  margin-bottom: 28px;
+  background-color: #1e293b;
+  border: 2px dashed #94a3b8;
+  border-radius: 8px;
+}
+
+/* section 2 don borde double */
+.seccion-servicios {
+  width: 100%;
+  min-height: 260px;
+  padding: 28px 32px;
+  margin-bottom: 28px;
+  border: 4px double #f43f5e;
+  border-radius: 8px;
+}
+
+
+/* section 3 */
+.seccion-contacto {
+  width: 100%;
+  min-height: 150px;
+  padding: 24px 32px;
+  margin-bottom: 28px;
+  background-color: #172554;
+  border: 3px dotted #60a5fa;
+  border-radius: 8px;
+}
+
+/*footer */
+.caja-footer {
+  width: 85%;
+  max-width: 960px;
+  height: auto;
+  padding: 16px 24px;
+  margin: 16px auto 32px;
+  background-color: #020617;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  text-align: center;
+  color: #94a3b8;
+}
